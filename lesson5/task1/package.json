@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build:scripts": "webpack --mode=production",
-		"watch:scripts": "webpack --mode=development --devtool eval-source-maps"
+		"watch:scripts": "webpack --mode=development --devtool eval-source-maps -w"
 	},
 	"keywords": [],
 	"author": "",
