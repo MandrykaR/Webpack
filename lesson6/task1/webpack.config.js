@@ -15,12 +15,12 @@ module.exports = {
 					{
 						loader: 'url-loader',
 						options: {
-							limit: 8129,
-							name: '[name].[ext]',
+							limit: 8192,
+							name: '[path][name].[ext]',
 							outputPath: 'images',
 						},
 					},
-				], 
+				],
 			},
 		],
 	},
